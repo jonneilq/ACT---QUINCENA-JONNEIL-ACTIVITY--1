@@ -1,0 +1,5 @@
+/*!CK:3408705215!*//*1434696605,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["CHazy"]); }
+
+__d("ReactComposerBackdateTaggerComponent.react",["Grid.react","ProgressiveDateAndTimePicker.react","React","cx","emptyFunction","fbt"],function(a,b,c,d,e,f,g,h,i,j,k,l){b.__markCompiled&&b.__markCompiled();var m=g.GridItem,n=i,o=n.PropTypes,p=i.createClass({displayName:"ReactComposerBackdateTaggerComponent",propTypes:{taggerData:o.object.isRequired,onSelect:o.func.isRequired},getDefaultProps:function(){return {taggerData:{},onSelect:k};},_onChange:function(q){this.props.onSelect(q);},render:function(){return (i.createElement(g,{cols:2,className:"_52mx _5esl",role:"presentation"},i.createElement(m,{key:"prefix",className:"_5esm",role:"presentation"},l._("When")),i.createElement(m,{key:"tagger",className:"_5esw",role:"presentation"},i.createElement(h,{className:"_52nc",initialYear:this.props.taggerData.year,initialMonth:this.props.taggerData.month,initialDay:this.props.taggerData.day,initialHour:this.props.taggerData.hour,initialMinute:this.props.taggerData.minute,descendingYears:true,onDateAndTimeChange:this._onChange}))));}});e.exports=p;},null);

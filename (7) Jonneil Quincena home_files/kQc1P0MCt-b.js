@@ -1,0 +1,5 @@
+/*!CK:2050162095!*//*1434785371,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["ZQDm0"]); }
+
+__d("ReactComposerImplicitLocationComponent.react",["React","XUICloseButton.react","cx","emptyFunction"],function(a,b,c,d,e,f,g,h,i,j){b.__markCompiled&&b.__markCompiled();'use strict';var k=g,l=k.PropTypes,m=g.createClass({displayName:"ReactComposerImplicitLocationComponent",propTypes:{caption:l.string.isRequired,hasExplicitLocation:l.bool,onClear:l.func},defaultProps:{onClear:j},render:function(){if(!this.props.caption)return g.createElement("noscript",null);var n=this.props.hasExplicitLocation?null:g.createElement(h,{className:"_1wl-",size:"small",onClick:this._onClear}),o=(("_1wly")+(this.props.hasExplicitLocation?' '+"_3q_y":''));return (g.createElement("span",{className:o},g.createElement("span",{className:"_1wlz"},this.props.caption.split(',')[0]),n));},_onClear:function(event){event.stopPropagation();this.props.onClear&&this.props.onClear();}});e.exports=m;},null);
